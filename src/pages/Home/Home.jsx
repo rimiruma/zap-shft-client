@@ -1,6 +1,7 @@
 import HowItWork from "../../assets/HowItWork";
 import OurServices from "../../components/OurServices";
 import Banner from "../Homee/Banner";
+import Brand from "../Homee/Brand";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner></Banner>
             <HowItWork></HowItWork>
             <OurServices></OurServices>
+            <Brand></Brand>
         </div>
     );
 };
