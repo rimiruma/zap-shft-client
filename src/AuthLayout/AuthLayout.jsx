@@ -1,9 +1,19 @@
-
+import { Outlet } from "react-router";
+import Logo from "../components/Logo/Logo";
+import authImage from '../assets/authImage.png';
 
 const AuthLayout = () => {
     return (
-        <div>
-            
+        <div className="max-w-6xl mx-auto">
+            <Logo></Logo>
+            <div className="flex">
+                <div className="flex-1">
+                    <Outlet></Outlet>
+                </div>
+                <div className="flex-1">
+                    <img src={authImage} alt="" />
+                </div>
+            </div>
         </div>
     );
 };

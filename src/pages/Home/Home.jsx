@@ -1,4 +1,6 @@
 import HowItWork from "../../assets/HowItWork";
+import Features from "../../components/Features";
+import HeroSection from "../../components/HeroSection";
 import OurServices from "../../components/OurServices";
 import Banner from "../Homee/Banner";
 import Brand from "../Homee/Brand";
@@ -16,6 +18,8 @@ const Home = () => {
             <OurServices></OurServices>
             <Brand></Brand>
             <Reviews reviewsPromise={reviewsPromise}></Reviews>
+            <Features></Features>
+            <HeroSection></HeroSection>
         </div>
     );
 };
